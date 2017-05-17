@@ -1,0 +1,180 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  overflow: scroll;
+  background-color: #5CB85C;
+}
+
+.cover {
+  display: flex;
+  padding: 0% 0% 75vw 0%;
+  width: 100%;
+  height: 1000px;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.siteHeader {
+  position: fixed;
+  width: 100%;
+  order: 1;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+background-color:rgba(0,0,0,0.5);
+
+}
+
+.name {
+  order: 1;
+  padding: 1% 1% 1% 1%;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+
+
+}
+
+.menu {
+  order: 2;
+  padding: 1% 1% 1% 1%;
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+
+
+#target1 {
+  height: 45px;
+  width: 85px;
+  text-align: center;
+  margin: 10px;
+}
+
+#target2 {
+  height: 45px;
+  width: 85px;
+  text-align: center;
+  margin: 10px;
+}
+
+#target3 {
+  height: 45px;
+  width: 85px;
+  text-align: center;
+  margin: 10px;
+}
+
+#target4 {
+  height: 45px;
+  width: 85px;
+  text-align: center;
+  margin: 10px;
+}
+
+.coverlink {
+  order: 2;
+  display: flex;
+  flex-direction: column;
+  padding: 1vw 2vw 2vw 4vw;
+  margin: 1% 5% 5% 5%;
+  align-self: center;
+  text-align: center;
+  color: black;
+}
+
+.coverlinkti {
+  padding: 19vw 15vw 10vw 5vw;
+  text-align: center;
+  font-size: 70px;
+}
+
+.projects {
+  order: 2;
+  width: 100%;
+  height: 1300px;
+  padding: 20vw 15vw 25vw 15vw;
+  display: flex;
+  justify-content: space-around;
+  color: black;
+  text-align: center;
+  background-color: #d9534f;
+}
+
+.project1 {
+  order: 3;
+  padding: 7vw;
+  border-color: black;
+  text-align: center;
+  background-image: url("http://www.carlosmg.com/img/flickr-logo-black.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.project2 {
+  order: 3;
+  padding: 7vw;
+  border-color: black;
+  text-align: center;
+  background-image: url("https://image.flaticon.com/icons/svg/56/56479.svg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.project3 {
+  order: 3;
+  padding: 7vw;
+  border-color: black;
+  text-align: center;
+  background-image: url("http://www.iconninja.com/files/544/522/389/github-icon.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about {
+  order: 3;
+  margin: 0% 0% 0% 0%;
+  padding: 26vw 1% 35vw 1%;
+  width: 100%;
+  height: 1500px;
+  text-align: left;
+  font-size: 25px;
+  color: white;
+  background-color: #5bc0de;
+}
+
+.contact {
+  order: 4;
+  width: 100%;
+  height: 1200px;
+  background-color: #5cb85c;
+}
+
+.contactme {
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+  text-align: center;
+  color: white;
+  background-color: #5cb85c;
+}
+
+.buttonhello {
+  background: #5bc0de;
+  color: white;
+  font-weight: 100;
+  font-size: 75px;
+  text-align: center;
+  margin-top: 17vw;
+  margin-right: 15px;
+  border-radius: 300px;
+  height: 300px;
+  width: 300px;
+  -webkit-box-shadow: 0px 0px 59px 5px rgba(0, 0, 0, 0.58);
+  -moz-box-shadow: 0px 0px 59px 5px rgba(0, 0, 0, 0.58);
+  box-shadow: 0px 0px 59px 5px rgba(0, 0, 0, 0.58);
+  overflow: scroll;
+}
