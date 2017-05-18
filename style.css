@@ -7,15 +7,7 @@
   background-color: #5CB85C;
 }
 
-.cover {
-  display: flex;
-  padding: 0% 0% 75vw 0%;
-  width: 100vw;
-  height: 100vh;
-  flex-direction: column;
-  justify-content: space-between;
-  background-color: white;
-}
+
 
 .siteHeader {
   position: fixed;
@@ -24,8 +16,7 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
-background-color:rgba(0,0,0,0.5);
-
+  background-color:rgba(0,0,0,0.5);
 }
 
 .name {
@@ -43,7 +34,6 @@ background-color:rgba(0,0,0,0.5);
   display: flex;
   flex-direction: row;
 }
-
 
 #target1 {
   height: 45px;
@@ -75,9 +65,12 @@ background-color:rgba(0,0,0,0.5);
 
 
 .coverlinkti {
-   margin-top: 40vh;
+  padding-top: 45vh;
   text-align: center;
   font-size: 70px;
+  width: 100vw;
+  height: 100vh;
+    background-color: white;
 
 }
 
