@@ -34,8 +34,6 @@ background-color:rgba(0,0,0,0.5);
   text-align: center;
   color: white;
   font-size: 40px;
-
-
 }
 
 .menu {
@@ -75,28 +73,19 @@ background-color:rgba(0,0,0,0.5);
   margin: 10px;
 }
 
-.coverlink {
-  order: 2;
-  display: flex;
-  flex-direction: column;
-  padding: 1vw 2vw 2vw 4vw;
-  margin: 1% 5% 5% 5%;
-  align-self: center;
-  text-align: center;
-  color: black;
-}
 
 .coverlinkti {
-  padding: 19vw 15vw 10vw 5vw;
+   margin-top: 40vh;
   text-align: center;
   font-size: 70px;
+
 }
 
 .projects {
   order: 2;
   width: 100vw;
   height: 100vh;
-  padding: 20vw 15vw 25vw 15vw;
+  align-items: center;
   display: flex;
   justify-content: space-around;
   color: black;
@@ -136,8 +125,10 @@ background-color:rgba(0,0,0,0.5);
 
 .about {
   order: 3;
-  margin: 0% 0% 0% 0%;
-  padding: 26vw 1% 35vw 1%;
+  align-items: center;
+  display: flex;
+  padding-left: 2vw;
+  justify-content: flex-start;
   width: 100vw;
   height: 100vh;
   text-align: left;
@@ -150,6 +141,9 @@ background-color:rgba(0,0,0,0.5);
   order: 4;
   width: 100vw;
   height: 100vh;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
   background-color: #5cb85c;
 }
 
@@ -168,8 +162,6 @@ background-color:rgba(0,0,0,0.5);
   font-weight: 100;
   font-size: 75px;
   text-align: center;
-  margin-top: 17vw;
-  margin-right: 15px;
   border-radius: 300px;
   height: 300px;
   width: 300px;
