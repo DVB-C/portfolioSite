@@ -20,7 +20,7 @@
 }
 
 .name {
-  order: 1;
+
   padding: 1% 1% 1% 1%;
   text-align: center;
   color: white;
@@ -65,7 +65,7 @@
 
 
 .coverlinkti {
-  padding-top: 45vh;
+  padding-top: 40vh;
   text-align: center;
   font-size: 70px;
   width: 100vw;
