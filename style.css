@@ -104,9 +104,13 @@ button:focus {
   padding: 11vw;
   border-color: black;
   text-align: center;
-  background-image: url("http://www.freeiconspng.com/uploads/behance-blue-circle-icon-12.png");
+  background-image: url("http://www.iconsdb.com/icons/download/blue/behance-4-512.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
+  background-color: white;
+  border-radius: 205vw;
+  border-style: solid;
+  border-color: #d9534f;
 }
 
 .project3 {
@@ -114,11 +118,11 @@ button:focus {
   padding: 11vw;
   border-color: black;
   text-align: center;
-  background-image: url("http://vannguyen.me/images/githubpurple.png");
+  background-image: url("https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-color: white;
-    border-radius: 20vw;
+    border-radius: 18vw;
 }
 
 .about {
