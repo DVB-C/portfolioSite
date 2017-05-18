@@ -7,8 +7,6 @@
   background-color: #5CB85C;
 }
 
-
-
 .siteHeader {
   position: fixed;
   width: 100%;
@@ -70,7 +68,7 @@
   font-size: 70px;
   width: 100vw;
   height: 100vh;
-    background-color: white;
+  background-color: white;
 
 }
 
@@ -127,7 +125,7 @@
   text-align: left;
   font-size: 25px;
   color: white;
-  background-color: #5bc0de;
+  background-color: #5cb85c;
 }
 
 .contact {
@@ -137,7 +135,7 @@
   align-items: center;
   display: flex;
   justify-content: space-around;
-  background-color: #5cb85c;
+  background-color: #5bc0de;
 }
 
 .contactme {
@@ -146,18 +144,19 @@
   font-size: 35px;
   text-align: center;
   color: white;
-  background-color: #5cb85c;
+  background-color: #5bc0de;
 }
 
 .buttonhello {
-  background: #5bc0de;
+  background: #ffbb33;
   color: white;
+  padding-bottom: 1vw;
   font-weight: 200;
   font-size: 5vw;
   text-align: center;
   border-radius: 20vw;
-  height: 20vw;;
-  width: 20vw;;
+  height: 15vw;
+  width: 15vw;
   box-shadow: 0px 0px 59px 5px rgba(0, 0, 0, 0.58);
   overflow: scroll;
 }
