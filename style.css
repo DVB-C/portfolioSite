@@ -10,8 +10,8 @@
 .cover {
   display: flex;
   padding: 0% 0% 75vw 0%;
-  width: 100%;
-  height: 1000px;
+  width: 100vw;
+  height: 100vh;
   flex-direction: column;
   justify-content: space-between;
   background-color: white;
@@ -94,8 +94,8 @@ background-color:rgba(0,0,0,0.5);
 
 .projects {
   order: 2;
-  width: 100%;
-  height: 1300px;
+  width: 100vw;
+  height: 100vh;
   padding: 20vw 15vw 25vw 15vw;
   display: flex;
   justify-content: space-around;
@@ -138,8 +138,8 @@ background-color:rgba(0,0,0,0.5);
   order: 3;
   margin: 0% 0% 0% 0%;
   padding: 26vw 1% 35vw 1%;
-  width: 100%;
-  height: 1500px;
+  width: 100vw;
+  height: 100vh;
   text-align: left;
   font-size: 25px;
   color: white;
@@ -148,8 +148,8 @@ background-color:rgba(0,0,0,0.5);
 
 .contact {
   order: 4;
-  width: 100%;
-  height: 1200px;
+  width: 100vw;
+  height: 100vh;
   background-color: #5cb85c;
 }
 
