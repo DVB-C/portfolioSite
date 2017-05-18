@@ -79,6 +79,7 @@
   width: 100vw;
   height: 100vh;
   align-items: center;
+  padding: 2vw;
   display: flex;
   justify-content: space-around;
   color: black;
@@ -87,8 +88,7 @@
 }
 
 .project1 {
-  order: 3;
-  padding: 7vw;
+  padding: 11vw;
   border-color: black;
   text-align: center;
   background-image: url("http://www.carlosmg.com/img/flickr-logo-black.png");
@@ -97,8 +97,8 @@
 }
 
 .project2 {
-  order: 3;
-  padding: 7vw;
+
+  padding: 11vw;
   border-color: black;
   text-align: center;
   background-image: url("https://image.flaticon.com/icons/svg/56/56479.svg");
@@ -107,8 +107,8 @@
 }
 
 .project3 {
-  order: 3;
-  padding: 7vw;
+
+  padding: 11vw;
   border-color: black;
   text-align: center;
   background-image: url("http://www.iconninja.com/files/544/522/389/github-icon.svg");
@@ -152,14 +152,12 @@
 .buttonhello {
   background: #5bc0de;
   color: white;
-  font-weight: 100;
+  font-weight: 200;
   font-size: 75px;
   text-align: center;
   border-radius: 300px;
   height: 300px;
   width: 300px;
-  -webkit-box-shadow: 0px 0px 59px 5px rgba(0, 0, 0, 0.58);
-  -moz-box-shadow: 0px 0px 59px 5px rgba(0, 0, 0, 0.58);
   box-shadow: 0px 0px 59px 5px rgba(0, 0, 0, 0.58);
   overflow: scroll;
 }
