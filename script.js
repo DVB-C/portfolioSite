@@ -11,7 +11,7 @@ $("#target3").click(function() {
 $("#target4").click(function() {
   window.location.href = "#contact"
 });
-$("#targethello").click(function() {
+$("#contact").click(function() {
   window.location.href = "mailto:kalpit.parikh@outlook.com"
 });
 
