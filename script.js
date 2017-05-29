@@ -9,7 +9,7 @@ $("#target3").click(function() {
   window.location.href = "#portfolio"
 });
 $("#target4").click(function() {
-  window.location.href = "#contact"
+  window.location.href = "#Name"
 });
 $("#contact").click(function() {
   window.location.href = "mailto:kalpit.parikh@outlook.com"

@@ -149,16 +149,33 @@ button:focus {
   background-color: #5cb85c;
 }
 
-.contactme {
-  display: flex;
-  justify-content: center;
-  font-size: 35px;
-  text-align: center;
-  color: white;
-  background-color: #5cb85c;
-  height: 45vh;
+
+#contact-area {
+	width: 500px;
+	color: white;
 }
 
-.contactme img{
-  height: 45vh;
+#contact-area input, #contact-area textarea {
+	padding: 5px;
+	width: 471px;
+	font-family: Helvetica, sans-serif;
+	font-size: 1.4em;
+	margin: 0px 0px 10px 0px;
+	border: 2px solid #ccc;
+}
+
+#contact-area textarea {
+	height: 90px;
+}
+
+#contact-area textarea:focus, #contact-area input:focus {
+	border: 2px solid #900;
+}
+
+#contact-area input.submit-button {
+	width: 100px;
+	float: right;
+	margin-right: 30px;
+	background-color: red;
+	margin-top: 10px;
 }
