@@ -162,14 +162,17 @@ button:focus {
 	font-size: 1.4em;
 	margin: 0px 0px 10px 0px;
 	border: 2px solid #ccc;
+  color:black;
 }
 
 #contact-area textarea {
 	height: 90px;
+    color:black;
 }
 
 #contact-area textarea:focus, #contact-area input:focus {
 	border: 2px solid #900;
+    color:black;
 }
 
 #contact-area input.submit-button {
@@ -178,4 +181,5 @@ button:focus {
 	margin-right: 30px;
 	background-color: red;
 	margin-top: 10px;
+  color: white;
 }
