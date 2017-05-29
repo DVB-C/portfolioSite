@@ -151,13 +151,13 @@ button:focus {
 
 
 #contact-area {
-	width: 500px;
+	width: 60vw;
 	color: white;
 }
 
 #contact-area input, #contact-area textarea {
 	padding: 5px;
-	width: 471px;
+	width: 60vw;
 	font-size: 1.4em;
 	margin: 0px 0px 10px 0px;
 	border: 2px solid #ccc;
@@ -165,7 +165,7 @@ button:focus {
 }
 
 #contact-area textarea {
-	height: 200px;
+	height: 30vh;
   color:black;
 }
 
@@ -177,7 +177,6 @@ button:focus {
 #contact-area input.submit-button {
 	width: 100px;
 	float: right;
-	margin-right: 30px;
 	background-color: red;
 	margin-top: 10px;
   color: white;
