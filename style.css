@@ -94,7 +94,7 @@ button:focus {
   padding: 11vw;
   border-color: black;
   text-align: center;
-  background-image: url("http://icons.iconarchive.com/icons/sicons/basic-round-social/512/flickr-icon.png");
+  background-image: url("http://www.freeiconspng.com/uploads/flickr-icon-5.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -104,11 +104,11 @@ button:focus {
   padding: 11vw;
   border-color: black;
   text-align: center;
-  background-image: url("http://www.iconsdb.com/icons/download/blue/behance-4-512.png");
+  background-image: url("http://icons.iconarchive.com/icons/danleech/simple/1024/behance-icon.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-color: white;
-  border-radius: 205vw;
+
   border-style: solid;
   border-color: #d9534f;
 }
@@ -118,11 +118,11 @@ button:focus {
   padding: 11vw;
   border-color: black;
   text-align: center;
-  background-image: url("https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png");
+  background-image: url("http://icons.iconarchive.com/icons/danleech/simple/1024/github-icon.png");
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: white;
-  border-radius: 18vw;
+  background-color: black;
+
 }
 
 .about {
