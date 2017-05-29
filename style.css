@@ -158,7 +158,6 @@ button:focus {
 #contact-area input, #contact-area textarea {
 	padding: 5px;
 	width: 471px;
-	font-family: Helvetica, sans-serif;
 	font-size: 1.4em;
 	margin: 0px 0px 10px 0px;
 	border: 2px solid #ccc;
@@ -182,4 +181,5 @@ button:focus {
 	background-color: red;
 	margin-top: 10px;
   color: white;
+  border-style: none;
 }
