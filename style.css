@@ -165,8 +165,8 @@ button:focus {
 }
 
 #contact-area textarea {
-	height: 90px;
-    color:black;
+	height: 200px;
+  color:black;
 }
 
 #contact-area textarea:focus, #contact-area input:focus {
