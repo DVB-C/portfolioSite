@@ -156,10 +156,10 @@ button:focus {
   text-align: center;
   color: white;
   background-color: #5cb85c;
-  height: 500px;
+  border-style: solid;
+  height: 45vh;
 }
 
 .contactme img{
-  margin-top: 7vw;
-  height: 70%;
+  height: 45vh;
 }
