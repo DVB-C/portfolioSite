@@ -90,7 +90,7 @@ button:focus {
   background-color: #d9534f;
 }
 
-.project1 {
+.project2 {
   padding: 11vw;
   border-color: black;
   text-align: center;
@@ -99,7 +99,7 @@ button:focus {
   background-repeat: no-repeat;
 }
 
-.project2 {
+.project3 {
 
   padding: 11vw;
   border-color: black;
@@ -113,7 +113,7 @@ button:focus {
   border-color: #d9534f;
 }
 
-.project3 {
+.project4 {
 
   padding: 11vw;
   border-color: black;
@@ -124,6 +124,20 @@ button:focus {
   background-color: black;
 
 }
+
+
+.project1 {
+
+  padding: 11vw;
+  border-color: black;
+  text-align: center;
+  background-image: url("https://cdn-images-1.medium.com/max/800/1*QnlI8nTg-t9G3pLrxbX9-w.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+
+}
+
 
 .about {
   order: 3;
