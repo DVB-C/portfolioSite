@@ -87,7 +87,7 @@ button:focus {
   justify-content: space-around;
   color: black;
   text-align: center;
-  background-color: #d9534f;
+  background-color: #ffa000;
 }
 
 .project1 {
@@ -97,7 +97,7 @@ button:focus {
   background-image: url("http://blog.codepen.io/wp-content/uploads/2012/06/Button-Fill-White-Large.png");
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: #3C3C3C;
+  background-color: #3c3c3c;
 
 }
 
@@ -112,7 +112,7 @@ button:focus {
   background-color: white;
 
   border-style: solid;
-  border-color: #d9534f;
+  border-color: #ffa000;
 }
 
 .project3 {
