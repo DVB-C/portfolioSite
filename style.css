@@ -193,8 +193,9 @@ button:focus {
 #contact-area input.submit-button {
 	width: 100px;
 	float: right;
-	background-color: red;
+	background-color: #D9534F;
 	margin-top: 10px;
+  padding: 10px;
   color: white;
   border-style: none;
 }
