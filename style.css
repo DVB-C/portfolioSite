@@ -198,4 +198,5 @@ button:focus {
   padding: 10px;
   color: white;
   border-style: none;
+  border-radius: 5%;
 }
