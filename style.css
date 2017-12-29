@@ -90,16 +90,18 @@ button:focus {
   background-color: #d9534f;
 }
 
-.project2 {
+.project1 {
   padding: 11vw;
   border-color: black;
   text-align: center;
-  background-image: url("http://www.freeiconspng.com/uploads/flickr-icon-5.png");
+  background-image: url("http://blog.codepen.io/wp-content/uploads/2012/06/Button-Fill-White-Large.png");
   background-size: cover;
   background-repeat: no-repeat;
+  background-color: #3C3C3C;
+
 }
 
-.project3 {
+.project2 {
 
   padding: 11vw;
   border-color: black;
@@ -113,7 +115,7 @@ button:focus {
   border-color: #d9534f;
 }
 
-.project4 {
+.project3 {
 
   padding: 11vw;
   border-color: black;
@@ -126,12 +128,12 @@ button:focus {
 }
 
 
-.project1 {
+.project4 {
 
   padding: 11vw;
   border-color: black;
   text-align: center;
-  background-image: url("https://www.shareicon.net/download/2015/08/27/91498_media_512x512.png");
+  background-image: url("http://hammerjs.github.io/assets/img/stackoverflow-icon.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-color: white;
