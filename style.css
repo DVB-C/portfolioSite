@@ -73,9 +73,14 @@ button:focus {
   font-size: 70px;
   width: 100vw;
   height: 100vh;
-  background-color: white;
+  color: white;
+  background: linear-gradient(135deg, orange, red);
 
 }
+
+
+
+
 
 .projects {
   order: 2;
@@ -92,7 +97,7 @@ button:focus {
 
 .project1 {
   padding: 12vw;
-  border-radius: 100%;
+
   border-color: black;
   text-align: center;
   background-image: url("http://blog.codepen.io/wp-content/uploads/2012/06/Button-Fill-White-Large.png");
@@ -110,11 +115,10 @@ button:focus {
 
   border-color: black;
   text-align: center;
-  background-image: url("https://www.shareicon.net/download/2016/05/24/769920_logo_512x512.png");
+  background-image: url("http://icons.iconarchive.com/icons/danleech/simple/1024/behance-icon.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-color: white;
-  border-radius: 100%;
 
   border-style: solid;
   border-color: #fbc02d;
@@ -123,7 +127,7 @@ button:focus {
 .project3 {
 
   padding: 12vw;
-  border-radius: 75%;
+
   border-color: black;
   text-align: center;
   background-image: url("http://icons.iconarchive.com/icons/danleech/simple/1024/github-icon.png");
