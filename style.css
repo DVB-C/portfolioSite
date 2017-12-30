@@ -91,7 +91,8 @@ button:focus {
 }
 
 .project1 {
-  padding: 11vw;
+  padding: 12vw;
+
   border-color: black;
   text-align: center;
   background-image: url("http://blog.codepen.io/wp-content/uploads/2012/06/Button-Fill-White-Large.png");
@@ -103,7 +104,10 @@ button:focus {
 
 .project2 {
 
-  padding: 11vw;
+  padding: 12vw;
+
+
+
   border-color: black;
   text-align: center;
   background-image: url("http://icons.iconarchive.com/icons/danleech/simple/1024/behance-icon.png");
@@ -117,7 +121,8 @@ button:focus {
 
 .project3 {
 
-  padding: 11vw;
+  padding: 12vw;
+
   border-color: black;
   text-align: center;
   background-image: url("http://icons.iconarchive.com/icons/danleech/simple/1024/github-icon.png");
@@ -128,17 +133,7 @@ button:focus {
 }
 
 
-.project4 {
 
-  padding: 11vw;
-  border-color: black;
-  text-align: center;
-  background-image: url("http://hammerjs.github.io/assets/img/stackoverflow-icon.svg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: white;
-
-}
 
 
 .about {
