@@ -2,7 +2,6 @@ button:focus {
   outline-style: none
 }
 
-
 .body {
   display: flex;
   flex-direction: column;
@@ -23,7 +22,6 @@ button:focus {
 }
 
 .name {
-
   padding: 1% 1% 1% 1%;
   text-align: center;
   color: white;
@@ -66,7 +64,6 @@ button:focus {
   margin: 10px;
 }
 
-
 .coverlinkti {
   padding-top: 40vh;
   text-align: center;
@@ -75,12 +72,7 @@ button:focus {
   height: 100vh;
   color: white;
   background: linear-gradient(135deg, orange, red);
-
 }
-
-
-
-
 
 .projects {
   order: 2;
@@ -95,51 +87,37 @@ button:focus {
   background-color: #fbc02d;
 }
 
-.project1 {
+.project3 {
   padding: 12vw;
-
-  border-color: black;
+  border-color: white;
   text-align: center;
-  background-image: url("http://blog.codepen.io/wp-content/uploads/2012/06/Button-Fill-White-Large.png");
+  background-image: url("https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded");
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: #3c3c3c;
-
+  background-color: white;
 }
 
-.project2 {
-
+.project1 {
   padding: 12vw;
-
-
-
   border-color: black;
   text-align: center;
   background-image: url("http://icons.iconarchive.com/icons/danleech/simple/1024/behance-icon.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-color: white;
-
   border-style: solid;
   border-color: #fbc02d;
 }
 
-.project3 {
-
+.project2 {
   padding: 12vw;
-
   border-color: black;
   text-align: center;
   background-image: url("http://icons.iconarchive.com/icons/danleech/simple/1024/github-icon.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-color: black;
-
 }
-
-
-
-
 
 .about {
   order: 3;

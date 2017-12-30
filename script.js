@@ -5,12 +5,15 @@ $("#target1").click(function() {
 $("#target2").click(function() {
   window.location.href = "#aboutus"
 });
+
 $("#target3").click(function() {
   window.location.href = "#portfolio"
 });
+
 $("#target4").click(function() {
   window.location.href = "#contact-area"
 });
+
 $("#contact").click(function() {
   window.location.href = "mailto:kalpit.parikh@outlook.com"
 });
