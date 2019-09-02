@@ -26,6 +26,7 @@ button:focus {
   text-align: center;
   color: white;
   font-size: 40px;
+  
 }
 
 .menu {
@@ -138,7 +139,7 @@ button:focus {
   font-size: 25px;
   color: white  ;
   background-color: #757575;
-
+ 
   background:url('  https://mfiles.alphacoders.com/743/743720.jpg') no-repeat center center fixed;
   background-size: cover;
 }
@@ -157,7 +158,7 @@ button:focus {
     font-size: 25px;
     color: white  ;
     background-color: #757575;
-  
+
     background:url('https://wallpapershome.com/images/pages/pic_h/20311.jpg');
     background-size: cover;
   }
