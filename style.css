@@ -99,14 +99,14 @@ button:focus {
 
 .project1 {
   padding: 12vw;
-  border-color: black;
+
   text-align: center;
   background-image: url("http://icons.iconarchive.com/icons/danleech/simple/1024/behance-icon.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-color: white;
   border-style: solid;
-  border-color: #fbc02d;
+
 }
 
 .project2 {
