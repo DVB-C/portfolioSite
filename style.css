@@ -8,7 +8,7 @@ button:focus {
   position: absolute;
   width: 100%;
   overflow: scroll;
-  background-color: #5CB85C;
+  background-color: #FAFAFA;
 }
 
 .siteHeader {
@@ -70,8 +70,8 @@ button:focus {
   font-size: 70px;
   width: 100vw;
   height: 100vh;
-  color: white;
-  background: linear-gradient(135deg, orange, red);
+  color: black;
+  background:#FAFAFA;
 }
 
 .projects {
@@ -84,11 +84,13 @@ button:focus {
   justify-content: space-around;
   color: black;
   text-align: center;
-  background-color: #fbc02d;
+  background-color: #E0E0E0;
+  background:url('https://wallpapercave.com/wp/wp4010381.png') no-repeat center center fixed;
+
 }
 
 .project3 {
-  padding: 12vw;
+  padding: 10vw;
   border-color: white;
   text-align: center;
   background-image: url("https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded");
@@ -98,7 +100,7 @@ button:focus {
 }
 
 .project1 {
-  padding: 12vw;
+  padding: 10vw;
 
   text-align: center;
   background-image: url("http://icons.iconarchive.com/icons/danleech/simple/1024/behance-icon.png");
@@ -110,7 +112,7 @@ button:focus {
 }
 
 .project2 {
-  padding: 12vw;
+  padding: 10vw;
   border-color: black;
   text-align: center;
   background-image: url("http://icons.iconarchive.com/icons/danleech/simple/1024/github-icon.png");
@@ -129,8 +131,11 @@ button:focus {
   height: 100vh;
   text-align: left;
   font-size: 25px;
-  color: white;
-  background-color: #5bc0de;
+  color: white  ;
+  background-color: #757575;
+
+  background:url('https://wallpapershome.com/images/pages/pic_h/20311.jpg');
+  background-size: cover;
 }
 
 .contact {
@@ -140,7 +145,7 @@ button:focus {
   align-items: center;
   display: flex;
   justify-content: space-around;
-  background-color: #5cb85c;
+  background-color: #212121;
 }
 
 
