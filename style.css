@@ -141,7 +141,7 @@ button:focus {
   background-color: black;
  
   background:url('https://mfiles.alphacoders.com/743/743720.jpg') no-repeat  center center fixed;  
-  background-size: contain;
+  background-size: 100% 100%;
 }
 
 
