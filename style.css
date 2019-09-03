@@ -140,13 +140,12 @@ button:focus {
   color: white  ;
   background-color: #757575;
  
-  background:url('  https://mfiles.alphacoders.com/743/743720.jpg') no-repeat center center fixed;
+  background:url('https://mfiles.alphacoders.com/743/743720.jpg') no-repeat center center fixed;
   background-size: cover;
-  background-position: center;
 }
 
 
-@media only screen and (orientation: portrait) {
+@media only screen and (min-width: 600px) {
   .about {
     order: 3;
     align-items: center;
