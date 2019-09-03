@@ -140,7 +140,7 @@ button:focus {
   color: white  ;
   background-color: black;
  
-  background:url('https://mfiles.alphacoders.com/743/743720.jpg') no-repeat   fixed;  
+  background:url('https://mfiles.alphacoders.com/743/743720.jpg') no-repeat  center center fixed;  
   background-size: contain;
 }
 
@@ -159,8 +159,8 @@ button:focus {
     color: white  ;
     background-color: black;
 
-    background:url('https://wallpapershome.com/images/pages/pic_h/20311.jpg') no-repeat   fixed;
-    background-size: contain;
+    background:url('https://wallpapershome.com/images/pages/pic_h/20311.jpg') no-repeat  center center   fixed;
+    background-size: cover;
 
   }
   }
