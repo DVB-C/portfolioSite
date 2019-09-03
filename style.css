@@ -146,7 +146,7 @@ button:focus {
 }
 
 
-@media only screen and (min-width: 600px) {
+@media only screen and (orientation: portrait) {
   .about {
     order: 3;
     align-items: center;
