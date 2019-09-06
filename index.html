@@ -1,104 +1,143 @@
 <html>
 
-<header>
+<head>
+
+  <title>project r</title>
+
+  <link rel="shortcut icon" href="assets/logo/kolibry.png" />
+
   <link href="style.css" rel="stylesheet" type="text/css" />
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
 
-</header>
+</head>
 
 <body>
 
+  <div class="main">
 
-  <a href="#home"></a>
-  <a href="#aboutus"></a>
-  <a href="#portfolio"></a>
-  <a href="#contact"></a>
+    <nav class='sidebar sidebar-menu-collapsed'>
 
-  <div class="body">
+      <ul>
+        <li class='active'>
+          <a class='expandable' href='#home' title='home'>
+            <span class='expanded-element'>home</span>
+            <span class='glyphicon glyphicon-home collapsed-element'></span>
+          </a>
+        </li>
+        <li>
+          <a class='expandable' href='#portfolio' title='portfolio'>
+            <span class='expanded-element'>portfolio</span>
+            <span class='glyphicon glyphicon-play-circle collapsed-element'></span>
+          </a>
+        </li>
+        <li>
+          <a class='expandable' href='#contact' title='contact'>
+            <span class='expanded-element'>contact</span>
+            <span class='glyphicon glyphicon-edit collapsed-element'></span>
+          </a>
+        </li>
+        <li>
+          <a class='expandable' href='#about' title='about'>
+            <span class='expanded-element'>about</span>
+            <span class='glyphicon glyphicon-eye-open collapsed-element'></span>
+          </a>
+        </li>
+      </ul>
+
+    </nav>
+
 
     <div id="home">
-      <div class="siteHeader">
-        <div class="name">project r
-        </div>
-        <div class="menu">
-
-
-          <button type="button" id="target1" class="btn btn-block btn-md btn-danger" >home</button>
-
-          <button type="button" id="target3" class="btn btn-md btn-block btn-warning">folio</button>
-
-          <button type="button" id="target2" class="btn btn-md btn-block btn-info">about</button>
-
-          <button type="button" id="target4" class="btn btn-md btn-block btn-success">contact</button>
-
-        </div>
-      </div>
       <div class="coverlinkti">
-        <p>project r</p>
-        <p style="font-size: 20px;"> web design</p>
-
+        <div class="glitch" data-text="project r">project r</div>
       </div>
     </div>
 
 
-    <div class="projects" id="portfolio">
+
+    <div id="portfolio">
+      <div class="bground">
+
+          <a display: block href="http://github.com/kalpitp">
+            <div class=project2>
+            </div>
+          </a>
+          
+    <a display: block href="https://www.behance.net/kalpitp">
+      <div class=project1>
+      </div>
+    </a>
 
 
 
-            <a display: block href="http://github.com/kalpitp">
-              <div class=project2>
-              </div>
-            </a>
-            
-      <a display: block href="https://www.behance.net/kalpitp">
-        <div class=project1>
-        </div>
-      </a>
-
-
-
-      <a display: block href="https://stackoverflow.com/story/kalpitparikh
+    <a display: block href="https://stackoverflow.com/story/kalpitparikh
 ">
-        <div class=project3>
-        </div>
-      </a>
+      <div class=project3>
+      </div>
+    </a>
 
 
 
-
-
-    </div>
-
-    <div class="contact">
-      <div id="contact-area">
-
-        <form action="mailto:kalpit.parikh@outlook.com" method="post" enctype="text/plain">
-
-
-
-
-
-        <input type="text" name="Name" value= "name" id="Name" />
-
-
-        <input type="text" name="Email" value = "email" id="Email" />
-
-
-        <textarea name="Message" rows="20" cols="20" id="Message">message</textarea>
-        <input type="submit" name="submit" value="submit" class="submit-button" />
-        </form>
       </div>
     </div>
-    <div class="about" id="aboutus">
-     <p>about:
-      <br><br> <i>r</i> is for research and exploration <br> of the simulacrum <br> <br> through process of design...
-    </p> 
+
+
+    <div id="contact">
+  
+
+      <div class="cground">
+          <div class="inputForm">
+          <section class="get-in-touch">
+              <h1 class="title">Get in touch</h1>
+              <form class="contact-form row">
+                 <div class="form-field col x-50">
+                    <input id="name" class="input-text js-input" type="text" required>
+                    <label class="label" for="name">Name</label>
+                 </div>
+                 <div class="form-field col x-50">
+                    <input id="email" class="input-text js-input" type="email" required>
+                    <label class="label" for="email">E-mail</label>
+                 </div>
+                 <div class="form-field col x-100">
+                    <input id="message" class="input-text js-input" type="text" required>
+                    <label class="label" for="message">Message</label>
+                 </div>
+                 <div class="form-field col x-100 align-center">
+                    <input class="submit-btn" type="submit" value="Submit">
+                 </div>
+              </form>
+           </section>
+          </div>
+
+      </div>
+    
     </div>
+
+    <div id="about">
+
+      <div class="aboutr">
+        <p>about: <i>r</i>
+          <br><br> the the research and exploration <br> of the simulacrum <br> <br> through design...
+        </p>
+      </div>
+    </div>
+
+
+  </div>
+  <div class="arrow">
+    <span></span>
+    <span></span>
+
   </div>
 
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
   <script type="text/javascript" src="script.js"></script>
+
 </body>
 
 </html>

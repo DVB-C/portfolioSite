@@ -2,7 +2,7 @@ button:focus {
   outline-style: none
 }
 
-.body {
+.main {
   display: flex;
   flex-direction: column;
   position: absolute;
@@ -11,123 +11,56 @@ button:focus {
   background-color: black;
 }
 
-.siteHeader {
-  position: fixed;
-  width: 100%;
+.coverlinkti {
   order: 1;
+
+  width: 100vw;
+  height: 100vh;
+
   display: flex;
-  justify-content: space-between;
-  width: 100%;
-  background-color:rgba(0,0,0,0.5);
+  align-items: center;
+  justify-content: center;
+  
+  background-color: white;
+  background-size: auto 100%;
+  background: url('assets/backgrounds/film_overlay.gif') no-repeat center center fixed;
+  background-size: cover;
 }
 
-.name {
-  padding: 1% 1% 1% 1%;
-  text-align: center;
-  color: white;
-  font-size: 40px;
+.bground {
+  order: 2;
+
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  background-color: white;
+  background-size: auto 100%;
+  background: url('assets/backgrounds/stagelights.png') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.cground {
+  order: 3;
+
+  width: 100vw;
+  height: 100vh;
+
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  background-color: white;
+  
+
   
 }
 
-.menu {
-  order: 2;
-  padding: 1% 1% 1% 1%;
-  color: white;
-  display: flex;
-  flex-direction: row;
-}
-
-#target1 {
-  height: 45px;
-  width: 85px;
-  text-align: center;
-  margin: 10px;
-}
-
-#target2 {
-  height: 45px;
-  width: 85px;
-  text-align: center;
-  margin: 10px;
-}
-
-#target3 {
-  height: 45px;
-  width: 85px;
-  text-align: center;
-  margin: 10px;
-}
-
-#target4 {
-  height: 45px;
-  width: 85px;
-  text-align: center;
-  margin: 10px;
-}
-
-.coverlinkti {
-  padding-top: 40vh;
-  text-align: center;
-  font-size: 70px;
-  width: 100vw;
-  height: 100vh;
-  color: black;
-  background:#FAFAFA;
-}
-
-.projects {
-  order: 2;
-  width: 100vw;
-  height: 100vh;
-  align-items: center;
-  padding: 2vw;
-  display: flex;
-  justify-content: space-around;
-  color: black;
-  text-align: center;
-  background-color: #E0E0E0;
-  background:url('https://wallpapercave.com/wp/wp4010381.png') no-repeat center center fixed;
-
-
-}
-
-
-
-
-.project3 {
-  padding: 10vw;
-  border-color: white;
-  text-align: center;
-  background-image: url("https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: white;
-}
-
-.project1 {
-  padding: 10vw;
-
-  text-align: center;
-  background-image: url("http://icons.iconarchive.com/icons/danleech/simple/1024/behance-icon.png");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-color: white;
-  border-style: solid;
-
-}
-
-.project2 {
-  padding: 10vw;
-  border-color: black;
-  text-align: center;
-  background-image: url("http://icons.iconarchive.com/icons/danleech/simple/1024/github-icon.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: black;
-}
-
-
-.about {
+.aboutr {
   order: 3;
   align-items: center;
   display: flex;
@@ -137,77 +70,362 @@ button:focus {
   height: 100vh;
   text-align: left;
   font-size: 25px;
-  color: white  ;
+  color: white;
+  background-color: black;
+
+
+  background: url('assets/backgrounds/20311.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+
+.arrow {
+  position: absolute;
+  top: 93%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.arrow span {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-bottom: 5px solid #06A8FF;
+  border-right: 5px solid #06A8FF;
+  transform: rotate(45deg);
+  margin: -10px;
+  animation: animate 2s infinite;
+}
+
+.arrow span:nth-child(2) {
+  animation-delay: -0.2s;
+}
+
+.arrow span:nth-child(3) {
+  animation-delay: -0.4s;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+    transform: rotate(45deg) translate(-20px, -20px);
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: rotate(45deg) translate(20px, 20px);
+  }
+}
+
+
+
+nav.sidebar-menu-collapsed {
+  width: 150px;
+}
+
+.expanded-element{
+  visibility: hidden;
+}
+
+nav.sidebar:hover {
+width: 150px;
+}
+
+nav.sidebar {
+  position: fixed;
+  top: 40%;
+  right: 10px;
+  height: 100%;
+  text-align: right;
+  color: white;
+  padding: 20px 10px;
+  mix-blend-mode: difference;
+
+}
+
+nav.sidebar a#justify-icon {
+  outline: 0;
+  color: white;
+  font-size: 24px;
+  font-style: normal;
+}
+
+nav.sidebar ul {
+  margin: 0;
+  padding: 0;
+  margin-top: 60px;
+}
+
+nav.sidebar ul li {
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+  list-style-type: none;
+}
+
+nav.sidebar ul li a.expandable {
+  outline: 0;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+nav.sidebar ul li a.expandable:hover {
+  color: white !important;
+}
+
+nav.sidebar ul li.active a.expandable {
+  color: white !important;
+}
+
+nav.sidebar ul li:hover .expanded-element {
+  visibility: visible;
+}
+nav.sidebar ul li.active a.expandable:hover {
+  color: white !important;
+}
+
+.glitch {
+  color: white;
+  font-size: 105px;
+  position: relative;
+  width: 400px;
+  margin: 0 auto;
+
+}
+
+@keyframes noise-anim {
+  0% {
+    clip-path: inset(28% 0 71% 0);
+  }
+  1% {
+    clip-path: inset(67% 0 7% 0);
+  }
+  1% {
+    clip-path: inset(96% 0 4% 0);
+  }
+  1% {
+    clip-path: inset(5% 0 11% 0);
+  }
+  2% {
+    clip-path: inset(80% 0 20% 0);
+  }
+  2% {
+    clip-path: inset(15% 0 67% 0);
+  }
+  3% {
+    clip-path: inset(18% 0 48% 0);
+  }
+  3% {
+    clip-path: inset(95% 0 2% 0);
+  }
+  4% {
+    clip-path: inset(59% 0 36% 0);
+  }
+  4% {
+    clip-path: inset(25% 0 43% 0);
+  }
+  5% {
+    clip-path: inset(17% 0 5% 0);
+  }
+  5% {
+    clip-path: inset(76% 0 16% 0);
+  }
+  6% {
+    clip-path: inset(2% 0 97% 0);
+  }
+  6% {
+    clip-path: inset(4% 0 24% 0);
+  }
+  7% {
+    clip-path: inset(46% 0 12% 0);
+  }
+  7% {
+    clip-path: inset(81% 0 19% 0);
+  }
+  8% {
+    clip-path: inset(65% 0 3% 0);
+  }
+  8% {
+    clip-path: inset(94% 0 3% 0);
+  }
+  1% {
+    clip-path: inset(23% 0 34% 0);
+  }
+  9% {
+    clip-path: inset(58% 0 1% 0);
+  }
+  1% {
+    clip-path: inset(45% 0 50% 0);
+  }
+}
+
+.glitch::after {
+  content: attr(data-text);
+  position: absolute;
+  left: 2px;
+  text-shadow: -1px 0 red;
+  top: 0;
+  
+  overflow: hidden;
+  animation: noise-anim 7s infinite linear alternate-reverse;
+}
+
+
+
+
+
+
+
+
+.project1 {
+  padding: 12vw;
+
+  text-align: center;
+  background-image: url("https://cdn4.iconfinder.com/data/icons/liu-square-blac/60/behance-square-social-media-512.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-color: black;
+  margin: 100px;
+
+ 
+}
+
+.project2 {
+  padding: 12vw;
+  border-color: black;
+  text-align: center;
+  background-image: url("https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png");
+  background-size: cover;
+  background-repeat: no-repeat;
   background-color: black;
  
-  background:url('https://mfiles.alphacoders.com/743/743720.jpg') no-repeat  center center fixed;  
-  background-size: auto  100%;
 }
 
-
-@media only screen and (min-width: 750px) {
-  .about {
-    order: 3;
-    align-items: center;
-    display: flex;
-    padding-left: 2vw;
-    justify-content: flex-start;
-    width: 100vw;
-    height: 100vh;
-    text-align: left;
-    font-size: 25px;
-    color: white  ;
-    background-color: black;
-
-    background:url('https://wallpapershome.com/images/pages/pic_h/20311.jpg') no-repeat  center center   fixed;
-    background-size: cover;
-
-  }
-  }
-
-
-.contact {
-  order: 4;
-  width: 100vw;
-  height: 100vh;
-  align-items: center;
-  display: flex;
-  justify-content: space-around;
-  background-color: #212121;
+.project3 {
+  padding: 12vw;
+  border-color: white;
+  text-align: center;
+  background-image: url("https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+ 
 }
 
-
-#contact-area {
-	width: 60vw;
-	color: white;
+.align-center {
+  text-align: center;
 }
-
-#contact-area input, #contact-area textarea {
-	padding: 5px;
-	width: 60vw;
-	font-size: 1.4em;
-	margin: 0px 0px 10px 0px;
-	border: 2px solid #ccc;
-  color:black;
+ 
+.row {
+  margin: -20px 0;
 }
-
-#contact-area textarea {
-	height: 30vh;
-  color:black;
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
-
-#contact-area textarea:focus, #contact-area input:focus {
-	border: 2px solid #900;
-    color:black;
+.row .col {
+  padding: 0 20px;
+  float: left;
+  box-sizing: border-box;
 }
-
-#contact-area input.submit-button {
-	width: 100px;
-	float: right;
-	background-color: #D9534F;
-	margin-top: 10px;
-  padding: 10px;
-  color: white;
-  border-style: none;
-  border-radius: 5%;
+.row .col.x-50 {
+  width: 50%;
+}
+.row .col.x-100 {
+  width: 100%;
+}
+.content-wrapper {
+  min-height: 100%;
+  position: relative;
+}
+.get-in-touch {
+  max-width: 650px;
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: white;
+}
+.get-in-touch .title {
+  text-align: center;
+  font-family: Raleway, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 36px;
+  line-height: 48px;
+  padding-bottom: 48px;
+}
+.contact-form .form-field {
+  position: relative;
+  margin: 32px 0;
+}
+.contact-form .input-text {
+  display: block;
+  width: 100%;
+  height: 36px;
+  border-width: 0 0 2px 0;
+  border-color: #000;
+  font-family: Lusitana, serif;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+}
+.contact-form .input-text:focus {
+  outline: none;
+}
+.contact-form .input-text:focus + .label, .contact-form .input-text.not-empty + .label {
+  transform: translateY(-24px);
+}
+.contact-form .label {
+  position: absolute;
+  left: 20px;
+  bottom: 11px;
+  font-family: Lusitana, serif;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #888;
+  cursor: text;
+  transition: transform 0.2s ease-in-out;
+}
+.contact-form .submit-btn {
+  display: inline-block;
+  background-color: #000;
+  color: #fff;
+  font-family: Raleway, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+}
+.note {
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  font-family: Lusitana, serif;
+  font-size: 16px;
+  line-height: 21px;
+}
+.note .link {
+  color: #888;
+  text-decoration: none;
+}
+.note .link:hover {
+  text-decoration: underline;
+}
+.inputForm{
+  width: 900px;
+  height: 700px;
+  background-color: white;
 }
