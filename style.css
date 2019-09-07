@@ -33,14 +33,20 @@ button:focus {
   width: 100vw;
   height: 100vh;
 
+
   display: flex;
   align-items: center;
-  justify-content: center;
-  
-  background-color: white;
-  background-size: auto 100%;
-  background: url('assets/backgrounds/stagelights.png') no-repeat center center fixed;
-  background-size: cover;
+  justify-content: space-around;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+
+  background-image: linear-gradient(#fdfbfb , #ebedee);
+ 
+
+ 
+
+
 }
 
 .cground {
@@ -55,7 +61,7 @@ button:focus {
   justify-content: center;
   
   background-color: white;
-  
+
 
   
 }
@@ -281,42 +287,6 @@ nav.sidebar ul li.active a.expandable:hover {
 
 
 
-
-.project1 {
-  padding: 12vw;
-
-  text-align: center;
-  background-image: url("https://cdn4.iconfinder.com/data/icons/liu-square-blac/60/behance-square-social-media-512.png");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-color: black;
-  margin: 100px;
-
- 
-}
-
-.project2 {
-  padding: 12vw;
-  border-color: black;
-  text-align: center;
-  background-image: url("https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: black;
- 
-}
-
-.project3 {
-  padding: 12vw;
-  border-color: white;
-  text-align: center;
-  background-image: url("https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: black;
- 
-}
-
 .align-center {
   text-align: center;
 }
@@ -428,4 +398,55 @@ nav.sidebar ul li.active a.expandable:hover {
   width: 900px;
   height: 700px;
   background-color: white;
+}
+
+.cardTitle{
+ 
+ 
+  height: auto;
+ 
+  font-size: 55px;
+ 
+}
+
+.cardContainer{
+
+  width: 85%;
+  max-width: 1500px;
+
+  height: auto;
+
+  flex-wrap:  wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+ 
+.card {
+  background: #fff;
+  border-radius: 2px;
+  display: inline-block;
+  width: 23%;
+  height: 20%;
+  margin: 1%;  
+  
+}
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  overflow: hidden;
+}
+
+.card {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.card:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
 }
