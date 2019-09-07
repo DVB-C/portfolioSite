@@ -414,7 +414,8 @@ nav.sidebar ul li.active a.expandable:hover {
   width: 85%;
   max-width: 1500px;
 
-  height: auto;
+  height: 50%;
+  margin-bottom: 10%;
 
   flex-wrap:  wrap;
   display: flex;
@@ -429,8 +430,8 @@ nav.sidebar ul li.active a.expandable:hover {
   background: #fff;
   border-radius: 2px;
   display: inline-block;
-  width: 23%;
-  height: 20%;
+  max-width: 23%;
+  height: 45%;
   margin: 1%;  
   
 }
