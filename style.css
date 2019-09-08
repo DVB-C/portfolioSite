@@ -32,7 +32,7 @@ button:focus {
 
   width: 100vw;
   height: 100vh;
-  color: white;
+  color: black;
 
   display: flex;
   align-items: center;
@@ -430,7 +430,7 @@ nav.sidebar ul li.active a.expandable:hover {
   border-radius: 2px;
   display: inline-block;
   max-width: 23%;
-  height: 45%;
+  height: 20vh;
   margin: 1%;  
   
 }
