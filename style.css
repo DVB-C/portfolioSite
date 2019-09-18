@@ -11,6 +11,8 @@ button:focus {
   background-color: black;
 }
 
+
+
 .coverlinkti {
   order: 1;
 
@@ -21,9 +23,8 @@ button:focus {
   align-items: center;
   justify-content: center;
   
-  background-color: white;
+  background-color: black;
   background-size: auto 100%;
-  background: url('assets/backgrounds/film_overlay.gif') no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -81,7 +82,7 @@ button:focus {
   background-color: black;
 
 
-  background: url('assets/backgrounds/20311.jpg') no-repeat center center fixed;
+  background: url('assets/backgrounds/simulacrum.jpg') no-repeat center center fixed;
   background-size: cover;
 }
 
