@@ -95,12 +95,16 @@ button:focus {
     {
   .aboutr {
     font-size: 40px;
-
-
   }
 
 }
 
+
+@media (orientation: landscape)  and (max-device-width : 1000px) {
+  .aboutr {
+    font-size: 20px;
+  }
+}
 
 
 .arrow {
