@@ -31,7 +31,6 @@ button:focus {
 
 
 
-
 .bground {
   order: 2;
 
@@ -48,8 +47,19 @@ button:focus {
 
   background-image: linear-gradient(#fdfbfb , #ebedee);
  
+}
 
-
+@media only screen 
+    and (min-device-width : 375px) 
+    and (max-device-width : 667px) 
+    and (orientation : portrait) 
+    and (-webkit-min-device-pixel-ratio : 2)
+    {
+ .bground{
+  width: 100vw;
+  height: auto;
+  padding: 2vw;
+ }
 }
 
 .cground {
@@ -64,10 +74,20 @@ button:focus {
   justify-content: center;
   
   background-color: white;
-
-
   
 }
+
+@media only screen 
+    and (min-device-width : 375px) 
+    and (max-device-width : 667px) 
+    and (orientation : portrait) 
+    and (-webkit-min-device-pixel-ratio : 2)
+    {
+ .cground{
+   display: none;
+ }
+}
+
 
 .aboutr {
   order: 3;
@@ -244,17 +264,9 @@ nav.sidebar ul li a.expandable {
     and (-webkit-min-device-pixel-ratio : 2)
     {
 
-  nav.sidebar ul li a.expandable {
- 
-    font-size: 40px;
+  .sidebar{
+    display: none;
   }
-  nav.sidebar { 
-    top: calc(var(--vh, 1vh) * 30);
-  }
-
-  nav.sidebar {
-    width: 250px;
-    }
 
 }
 /*
@@ -720,6 +732,39 @@ nav.sidebar ul li.active a.expandable:hover {
     max-width: 19%;
     height: 23vh;
   }
+}
+
+
+@media only screen 
+    and (min-device-width : 375px) 
+    and (max-device-width : 667px) 
+    and (orientation : portrait) 
+    and (-webkit-min-device-pixel-ratio : 2)
+    {
+      .cardTitle{
+ 
+ 
+        height: auto;
+        margin-top: 5%;
+        font-size: 95px;
+       
+      }
+      .cardContainer{
+
+        width: 90%;   
+        margin-top: 10%;
+        flex-wrap:  wrap;
+        display: flex;
+        flex-direction: row;
+        
+      }
+       
+      .card{
+
+        max-width: 45%;
+
+      }
+
 }
 
 
