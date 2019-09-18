@@ -176,7 +176,7 @@ width: 150px;
 
 nav.sidebar {
   position: fixed;
-  top: calc(var(--vh, 1vh) * 40);
+  top: calc(var(--vh, 1vh) * 39);
   right: 10px;
   height: calc(var(--vh, 1vh) * 100);
   text-align: right;
