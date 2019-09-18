@@ -200,7 +200,7 @@ nav.sidebar {
 
 @media (orientation: landscape)     and (max-device-width : 1000px) {
   nav.sidebar { 
-    top: calc(var(--vh, 1vh) * 28);
+    top: calc(var(--vh, 1vh) * 21);
   }
 }
 
@@ -298,6 +298,10 @@ nav.sidebar ul li.active a.expandable:hover {
 
 }
 
+@media (orientation: landscape)     and (max-device-width : 1000px) {
+  .glitch{
+    margin-bottom: 7%;
+}
 
 @keyframes noise-anim {
   0% {
