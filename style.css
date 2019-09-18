@@ -184,9 +184,7 @@ nav.sidebar-menu-collapsed {
   visibility: hidden;
 }
 
-nav.sidebar:hover {
-width: 150px;
-}
+
 
 nav.sidebar {
   position: fixed;
@@ -256,6 +254,10 @@ nav.sidebar ul li a.expandable {
 
 }
 /*
+
+nav.sidebar:hover {
+width: 150px;
+}
 
 nav.sidebar ul li a.expandable:hover {
   color: white !important;
