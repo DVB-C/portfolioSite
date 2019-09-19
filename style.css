@@ -143,9 +143,15 @@ button:focus {
     and (-webkit-min-device-pixel-ratio : 2)
     {
 
+      .arrow {
+        top: 89%;
+      
+      }
+      
+
   .arrow span {
-    width: 60px;
-    height: 60px;
+    width: 65px;
+    height: 65px;
     
   }
 
@@ -300,6 +306,10 @@ nav.sidebar ul li.active a.expandable:hover {
     {
     
     .glitch{
+      font-size: 150px;
+      width: auto;
+
+
    margin-bottom: 35%;
  }
 
