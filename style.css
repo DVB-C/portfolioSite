@@ -95,15 +95,16 @@ button:focus {
 
 .aboutr {
   order: 3;
-  align-items: center;
   display: flex;
+
+  align-items: top;
   padding-left: 2vw;
-  justify-content: flex-start;
+
   width: 100vw;
   height: 100vh;
   text-align: left;
   font-size: 25px;
-  color: white;
+  color: whitesmoke;
   background-color: black;
 
 
@@ -111,14 +112,31 @@ button:focus {
   background-size: cover;
  
 }
+
+.aboutText {
+  margin-top: 3vh;
+  margin-left: 3vh;
+
+  height: 13vh;
+  width: auto;
+  padding: 1vh 1vh 1vw 1vw;
+  background-color: rgba(0,0,0,.5);
+}
 @media only screen 
     and (min-device-width : 375px) 
     and (max-device-width : 667px) 
     and (orientation : portrait) 
     and (-webkit-min-device-pixel-ratio : 2)
     {
-  .aboutr {
+  .aboutText {
     font-size: 40px;
+    margin: auto;
+    height: 325px;
+    width: auto;
+    padding: 50px;
+    border-style: none;
+
+    background-color: rgba(0,0,0,.5);
   }
 
 }
