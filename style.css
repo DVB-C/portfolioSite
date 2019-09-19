@@ -263,7 +263,7 @@ nav.sidebar ul li a.expandable {
 
       
       nav.sidebar { 
-        top: calc(var(--vh, 1vh) * 31);
+        top: calc(var(--vh, 1vh) * 30);
       }
       nav.sidebar ul li a.expandable {
         outline: 0;
