@@ -271,7 +271,14 @@ nav.sidebar ul li a.expandable {
         text-decoration: none;
         font-size: 40px;
       }
-       
+      nav.sidebar {
+ 
+        right: 1.5vw;
+ 
+ 
+      
+      }
+      
 
 }
 /*
