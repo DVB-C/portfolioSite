@@ -665,6 +665,8 @@ nav.sidebar ul li.active a.expandable:hover {
 
   
 }
+
+
 .get-in-touch .title {
   text-align: center;
   letter-spacing: 3px;
@@ -723,6 +725,9 @@ nav.sidebar ul li.active a.expandable:hover {
   
 }
 
+
+
+
 .inputForm{
   width: 900px;
   height: 100%;
@@ -735,7 +740,7 @@ nav.sidebar ul li.active a.expandable:hover {
 
     {
 
-     
+  
         .get-in-touch .title {
           text-align: center;
           font-family: Raleway, sans-serif;
@@ -755,6 +760,10 @@ nav.sidebar ul li.active a.expandable:hover {
     and (orientation : portrait) 
     and (-webkit-min-device-pixel-ratio : 2)
     {
+ 
+  
+
+
       .inputForm{ 
         
         width: 100%;
