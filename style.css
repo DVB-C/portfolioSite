@@ -167,7 +167,7 @@ button:focus {
   .arrow span {
     width: 25px;
     height: 25px;
-    
+    margin: -15px;
   }
 }
 
