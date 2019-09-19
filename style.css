@@ -39,7 +39,7 @@ button:focus {
     and (-webkit-min-device-pixel-ratio : 2)
     {
  .coverlinkti{
-  background: url('assets/stagelights.png') no-repeat left top;
+  background: url('assets/stagelights.png') no-repeat 1% 1%;
   background-size: cover;
  }
 }
