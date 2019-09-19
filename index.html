@@ -116,15 +116,15 @@
 
 
     <div id="contact">
-
+       
 
       <div class="cground">
-
+ 
         <div class="inputForm">
           <section class="get-in-touch">
             <h1 class="title">get in touch</h1>
             <div class="mobileBox">
-            <form class="contact-form row" action="mailto:kalpit.parikh@outlook.com" method="post" enctype="text/plain">
+            <form class="contact-form row" action="mailto://kalpit.parikh@outlook.com" method="get" target="_blank" enctype="text/plain">
               <div class="form-field col x-50">
                 <input id="name" class="input-text js-input" type="text"  placeholder="NAME" required>
               </div>
@@ -135,7 +135,9 @@
                 <input id="message" class="input-text js-input " type="text" placeholder="MESSAGE" required>
               </div>
               <div class="form-field col x-100 align-center">
-                <input class="submit-btn" type="submit" value="Submit">
+                  <a href='#' onclick='window.open(`mailto:kalpit.parikh@outlook.com`, `_self`);'>
+
+                <input class="submit-btn" type="submit" value="Submit"> </a>
               </div>
             </form>
           </div>
@@ -153,7 +155,10 @@
         <div class="aboutText">
         <p>about: <i>r</i>
           <br><br> the research and exploration <br> of the simulacrum
+
         </p>
+
+      
       </div>
       </div>
     </div>
