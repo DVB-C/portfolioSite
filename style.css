@@ -152,6 +152,12 @@ button:focus {
   .aboutr {
     font-size: 20px;
   }
+  .aboutText{
+    margin-top: 7.25vh;
+    margin-left: 1.25vw;
+    height: 140px;
+
+  }
 }
 
 
