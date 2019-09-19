@@ -128,14 +128,20 @@ button:focus {
     and (orientation : portrait) 
     and (-webkit-min-device-pixel-ratio : 2)
     {
+      .aboutr{
+        height: calc(var(--vh, 1vh) * 100);
+      }
   .aboutText {
     font-size: 40px;
-    margin: auto;
+    margin: 67% auto 0 auto;
     height: 325px;
     width: auto;
     padding: 50px;
     border-style: none;
 
+
+
+    
     background-color: rgba(0,0,0,.5);
   }
 
