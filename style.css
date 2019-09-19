@@ -261,9 +261,17 @@ nav.sidebar ul li a.expandable {
     and (-webkit-min-device-pixel-ratio : 2)
     {
 
-  .sidebar{
-    display: none;
-  }
+      
+      nav.sidebar { 
+        top: calc(var(--vh, 1vh) * 31);
+      }
+      nav.sidebar ul li a.expandable {
+        outline: 0;
+        color: white;
+        text-decoration: none;
+        font-size: 40px;
+      }
+       
 
 }
 /*

@@ -6,5 +6,4 @@ $( '.js-input' ).keyup(function() {
   }
 });
 
-
  
