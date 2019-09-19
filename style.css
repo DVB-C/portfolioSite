@@ -114,10 +114,9 @@ button:focus {
 }
 
 .aboutText {
-  margin-top: 3vh;
-  margin-left: 3vh;
+  margin-top: 45vh;
 
-  height: 13vh;
+  height: 200px;
   width: auto;
   padding: 1vh 1vh 1vw 1vw;
   background-color: rgba(0,0,0,.5);
