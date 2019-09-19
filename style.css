@@ -667,11 +667,8 @@ nav.sidebar ul li.active a.expandable:hover {
 }
 .get-in-touch .title {
   text-align: center;
-  font-family: Raleway, sans-serif;
-  text-transform: uppercase;
   letter-spacing: 3px;
   font-size: 36px;
-  line-height: 48px;
   padding-bottom: 48px;
 }
 .contact-form .form-field {
@@ -686,7 +683,6 @@ nav.sidebar ul li.active a.expandable:hover {
   height: 36px;
   border-width: 0 0 2px 0;
   border-color: #000;
-  font-family: Lusitana, serif;
   font-size: 18px;
   line-height: 26px;
   font-weight: 400;
@@ -700,11 +696,11 @@ nav.sidebar ul li.active a.expandable:hover {
 .contact-form .input-text:focus + .label, .contact-form .input-text.not-empty + .label {
   transform: translateY(-24px);
 }
+
 .contact-form .label {
   position: absolute;
   left: 20px;
   bottom: 11px;
-  font-family: Lusitana, serif;
   font-size: 18px;
   line-height: 26px;
   font-weight: 400;
@@ -735,6 +731,25 @@ nav.sidebar ul li.active a.expandable:hover {
 
 
 @media only screen 
+    and (min-device-width : 667px) 
+
+    {
+
+     
+        .get-in-touch .title {
+          text-align: center;
+          font-family: Raleway, sans-serif;
+          text-transform: uppercase;
+          letter-spacing: 3px;
+          font-size: 36px;
+          line-height: 48px;
+          padding-bottom: 48px;
+        } 
+
+    }
+
+
+@media only screen 
     and (min-device-width : 375px) 
     and (max-device-width : 667px) 
     and (orientation : portrait) 
@@ -747,22 +762,31 @@ nav.sidebar ul li.active a.expandable:hover {
  
 
       }
-        .get-in-touch{
-         
-          height: 90%;
-          width: 100%;
 
 
-         
-        }
-        .get-in-touch .title {
-          
-          text-align: center;
-          font-size: 95px;         
-          margin-top: 5%; 
+
+      .get-in-touch {
+        height: 90%;
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: white;
+      
+        
+      }
+      .get-in-touch .title {
+        text-align: center;
+
+        letter-spacing: 3px;
+        font-size: 95px; 
+        padding-bottom: 48px;
+        margin-top: 5%; 
+      }
+
  
-     
-        }
+       
 
 .mobileBox{
   margin-top: 40%;
