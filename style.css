@@ -97,7 +97,7 @@ button:focus {
   order: 3;
   display: flex;
 
-  align-items: top;
+  align-items: center;
   padding-left: 2vw;
 
   width: 100vw;
@@ -114,7 +114,7 @@ button:focus {
 }
 
 .aboutText {
-  margin-top: 45vh;
+  margin-top: 5vh;
 
   height: 178px;
   width: auto;
@@ -153,11 +153,9 @@ button:focus {
 @media (orientation: landscape)  and (max-device-width : 1000px) {
   .aboutr {
     font-size: 15px;
-    height: calc(var(--vh, 1vh) * 100);
 
   }
   .aboutText{
-    margin-top: calc(var(--vh, 1vh) * 43);
 
     height: 140px;
     padding-left: 25px;
