@@ -179,6 +179,7 @@ button:focus {
     padding-left: 25px;
     padding-right: 25px;
     margin-left: 1vw;
+    margin-bottom: calc(var(--vh, 1vh) * 13);
 
   }
 
