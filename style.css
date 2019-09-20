@@ -128,10 +128,17 @@ button:focus {
     and (-webkit-min-device-pixel-ratio : 2)
     {
       .aboutr{
-        height: calc(var(--vh, 1vh) * 100);
+        align-content: base-line;
+        align-items: center;
+        flex-direction: column;
+        padding: 0;
+
+
+
       }
   .aboutText {
-    margin: 12.45vh auto 0 auto;
+    margin-top: 48vh;
+
     height: 325px;
     width: auto;
     padding: 50px;
