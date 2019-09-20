@@ -95,7 +95,14 @@ button:focus {
 
 .aboutr {
   order: 3;
+
+
   display: flex;
+
+  justify-content: flex-start;
+  align-content: base-line;
+  align-items: center;
+  flex-direction: row;
 
   align-items: center;
   padding-left: 2vw;
@@ -114,8 +121,7 @@ button:focus {
 }
 
 .aboutText {
-  margin-top: 5.45vh;
-
+  margin-top: 5vh;
   height: 178px;
   width: auto;
   padding: 1vh 1vh 1vw 1vw;
@@ -160,6 +166,11 @@ button:focus {
 @media (orientation: landscape)  and (max-device-width : 1000px) {
   .aboutr {
     font-size: 15px;
+    justify-content: flex-start;
+    align-content: base-line;
+    align-items: center;
+    flex-direction: row;
+    padding: 0;
 
   }
   .aboutText{
@@ -167,6 +178,7 @@ button:focus {
     height: 140px;
     padding-left: 25px;
     padding-right: 25px;
+    margin-left: 1vw;
 
   }
 
