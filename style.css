@@ -139,7 +139,6 @@ button:focus {
 
       }
   .aboutText {
-    margin-top: calc(var(--vh, 1vh) * 13);
     height: 325px;
     width: auto;
     padding: 50px;
