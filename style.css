@@ -153,10 +153,12 @@ button:focus {
 @media (orientation: landscape)  and (max-device-width : 1000px) {
   .aboutr {
     font-size: 15px;
+    height: calc(var(--vh, 1vh) * 100);
+
   }
   .aboutText{
-    margin-top: 7.25vh;
-    margin-left: 1.25vw;
+    margin-top: calc(var(--vh, 1vh) * 43);
+
     height: 140px;
     padding-left: 25px;
     padding-right: 25px;
