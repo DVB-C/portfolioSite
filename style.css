@@ -650,7 +650,7 @@ nav.sidebar ul li a.expandable {
   margin: 1%;  
   
 }
- 
+
 
 
 
@@ -669,17 +669,42 @@ nav.sidebar ul li a.expandable {
   }
 }
 
-@media (orientation: landscape) and (max-device-width : 1000px) {
-.cardContainer{
-    height: 48%;
-    margin-bottom: 15%;
 
+
+/* iphone landscape*/
+
+
+@media (orientation: landscape) and (max-device-width : 800px) {
+  .cardContainer{
+      height: 48%;
+      margin-bottom: 15%;
+  
+  
+    }
+    .card{
+      max-width: 16vw;
+      height: 29vh;
+    }
   }
-  .card{
-    max-width: 19%;
-    height: 23vh;
-  }
-}
+  
+/* tablet landscape*/
+
+
+  @media (orientation: landscape) and (min-device-width : 800px) {
+    .cardContainer{
+        height: 48%;
+        margin-bottom: 15%;
+    
+    
+      }
+      .card{
+        max-width: 19vw;
+        height: 27vh;
+      }
+    }
+
+/* tablet portrait*/
+
 
 @media (orientation: portrait) and (max-device-width : 1000px) {
   .cardContainer{
@@ -689,9 +714,12 @@ nav.sidebar ul li a.expandable {
     }
     .card{
       max-width: 21%;
-      height: 15vh;
+      height: 14vh;
     }
   }
+
+/* mobile portrait*/
+
 
 @media only screen 
     and (min-device-width : 375px) 
@@ -719,7 +747,7 @@ nav.sidebar ul li a.expandable {
        
       .card{
 
-        max-width: 45%;
+        max-width: 35%;
 
       }
 
