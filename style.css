@@ -648,6 +648,7 @@ nav.sidebar ul li a.expandable {
   max-width: 23%;
   height: 20vh;
   margin: 1%;  
+
   
 }
 
@@ -708,13 +709,13 @@ nav.sidebar ul li a.expandable {
 
 @media (orientation: portrait) and (max-device-width : 1000px) {
   .cardContainer{
-      height: 33%;
+      height: 29%;
       margin-bottom: 35%;
   
     }
     .card{
-      max-width: 21%;
-      height: 14vh;
+      max-width: 18.75vw;
+      height: 13.25vh;
     }
   }
 
