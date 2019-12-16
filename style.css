@@ -691,7 +691,7 @@ nav.sidebar ul li a.expandable {
 /* tablet landscape*/
 
 
-  @media (orientation: landscape) and (min-device-width : 800px) {
+  @media (orientation: landscape) and (min-device-width : 800px) and (max-device-width : 1300px) {
     .cardContainer{
         height: 48%;
         margin-bottom: 15%;
