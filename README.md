@@ -1,3 +1,15 @@
-# Project r
+### Hi there 👋
+<a href="https://zone-09.github.io/pather-panchali/">![Kalpit Parikh](https://github.com/RL10A-3/RL10A-3/blob/master/BRC.png)</a>
 
-![Alt Text](https://steemitimages.com/DQmaH4sx698CSs38fncFv48MVCCB8f9u1JjjZ6D43uG7Hmj/voronoi-space-gif-1.gif)
+<p align="center">
+ a web developer<br>
+<a href="http://b.link/projectr"> project r</a>
+  <br>
+<a href="https://locii.cc">locii</a>
+ · <a href="http://iioi.co">iioi</a>
+ · <a href="https://sonalika.org">sonalika</a>
+<br>
+<br>
+<br>
+<br>
+</p>
