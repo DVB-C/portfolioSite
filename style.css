@@ -288,11 +288,21 @@ nav.sidebar {
 
 }
 
+@media (orientation: landscape)  and (max-device-width : 1375px) {
+  nav.sidebar { 
+    top: calc(var(--vh, 1vh) * 25);
+  }
+}
+
+
 @media (orientation: landscape)  and (max-device-width : 1000px) {
   nav.sidebar { 
     top: calc(var(--vh, 1vh) * 21);
   }
 }
+
+
+
 
 nav.sidebar a#justify-icon {
   outline: 0;
@@ -359,6 +369,7 @@ nav.sidebar ul li a.expandable {
   width: 414px;
   margin-top: 1%;
   border-color: white;
+
 }
 
 @media only screen 
@@ -379,11 +390,15 @@ nav.sidebar ul li a.expandable {
 
 }
 
-@media (orientation: landscape) and (max-device-width : 1000px) {
+
+@media (orientation: landscape) and (max-device-width : 1375px) {
   .glitch{
     margin-bottom: 8%;
   }
 }
+
+
+
 
 @keyframes noise-anim {
   0% {
@@ -667,6 +682,7 @@ nav.sidebar ul li a.expandable {
     max-width: 21%;
     height: 21vh;
     
+    
   }
 }
 
@@ -691,11 +707,10 @@ nav.sidebar ul li a.expandable {
 /* tablet landscape*/
 
 
-  @media (orientation: landscape) and (min-device-width : 800px) and (max-device-width : 1300px) {
+  @media (orientation: landscape) and (min-device-width : 800px) and (max-device-width : 1000px) {
     .cardContainer{
         height: 48%;
         margin-bottom: 15%;
-    
     
       }
       .card{
@@ -707,7 +722,7 @@ nav.sidebar ul li a.expandable {
 /* tablet portrait*/
 
 
-@media (orientation: portrait) and (max-device-width : 1200px) {
+@media (orientation: portrait) and (max-device-width : 1375px) {
   .cardContainer{
       height: 29%;
       margin-bottom: 35%;
