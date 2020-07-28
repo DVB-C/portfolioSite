@@ -767,11 +767,11 @@ nav.sidebar ul li a.expandable {
   }
 
   .glitch {
-    margin-bottom: 8%;
+    margin-bottom: 5%;
   }
 
   nav.sidebar {
-    top: calc(var(--vh, 1vh) * 19);
+    top: calc(var(--vh, 1vh) * 25);
   }
 
 
