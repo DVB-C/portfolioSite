@@ -1,5 +1,5 @@
 ### Hi there 👋
-<a href="https://github.com/LINEAR-0b/LINEAR-0b/blob/master/assets/signature.png")</a>
+<a href="https://github.com/LINEAR-0b/LINEAR-0b/blob/master/assets/signature.png"></a>
 
 <p align="center">
  a web developer<br>
