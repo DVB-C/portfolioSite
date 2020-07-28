@@ -288,9 +288,9 @@ nav.sidebar {
 
 }
 
-@media (orientation: landscape)  and (max-device-width : 1375px) {
+@media (orientation: landscape)  and (max-device-width : 1000px) {
   nav.sidebar { 
-    top: calc(var(--vh, 1vh) * 25);
+    top: calc(var(--vh, 1vh) * 21);
   }
 }
 
@@ -395,6 +395,11 @@ nav.sidebar ul li a.expandable {
   .glitch{
     margin-bottom: 8%;
   }
+
+  nav.sidebar { 
+    top: calc(var(--vh, 1vh) * 23);
+  }
+
 }
 
 
