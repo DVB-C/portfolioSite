@@ -87,7 +87,7 @@ button:focus {
 }
 
 .aboutText {
-  margin-top: 3vh;
+  margin-top: 1.25vh;
   height: 178px;
   width: auto;
   padding: 1vh 1vh 1vw 1vw;
@@ -201,7 +201,7 @@ nav.sidebar ul li a.expandable {
   font-size: 110px;
   position: relative;
   width: 414px;
-  margin-top: 1%;
+  margin-top: -0.75%;
   border-color: white;
 
 }
